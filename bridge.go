@@ -1,4 +1,4 @@
-package hue_controller
+package hue
 
 import (
 	"bytes"

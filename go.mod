@@ -1,4 +1,4 @@
-module github.com/sc-js/hue_controller
+module github.com/sc-js/hue
 
 go 1.20
 

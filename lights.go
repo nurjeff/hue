@@ -1,4 +1,4 @@
-package hue_controller
+package hue
 
 // State represents the current state of a light.
 type State struct {

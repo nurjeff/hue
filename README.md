@@ -8,9 +8,9 @@ HUE_USERNAME=<username>
 
 ```go
 func main() {
-	hue, _ := hue_controller.Setup()
+	bridge, _ := hue.Setup()
 
-	hue.ChangeLight(2, bridge.LightState{On: bridge.VPtrs(true), Brightness: bridge.VPtrs[uint8](255), Hue: bridge.VPtrs[uint16](40000)})
+	bridge.ChangeLight(2, hue.LightState{On: hue.VPtrs(true), Brightness: hue.VPtrs[uint8](255), Hue: hue.VPtrs[uint16](40000)})
 }
 
 ```
